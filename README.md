@@ -21,7 +21,6 @@
 
 <h3>TODO</h3>
 <ul>
-    <li>Register page</li>
     <li>Update orders page</li>
     <li>Actions permissions based on roles</li>
     <li>Statistics</li>
