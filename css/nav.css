@@ -1,0 +1,37 @@
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #221e2e;
+}
+
+nav ul li {
+    display: inline;
+    float: left;
+}
+
+nav ul li a {
+    display: block;
+    color: #c2c2c2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    transition: all 100ms ease-in-out;
+}
+
+nav ul li a:hover {
+    color: #dadada;
+}
+
+.nav-left {
+    float: left;
+}
+
+.nav-right {
+    float: right;
+}
+
+.nav-active a {
+    color: white !important;
+}

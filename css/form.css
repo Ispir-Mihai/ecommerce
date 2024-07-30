@@ -1,0 +1,90 @@
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+button {
+    cursor: pointer;
+    border-radius: 3px;
+    transition: all ease-in-out 100ms;
+}
+
+.text-left select {
+    text-align: left !important;
+}
+
+.button-info {
+    background: #0096D6;
+    color: white;
+}
+
+.button-info:hover {
+    background: #0aa2e4;
+}
+
+.button-success {
+    background: #05af46;
+    color: white;
+}
+
+.button-success:hover {
+    background: #0db34c;
+}
+
+.button-danger {
+    background: #d40707;
+    color: white;
+}
+
+.button-danger:hover {
+    background: #e02222;
+}
+
+.table-viewer input,
+.table-viewer textarea,
+.table-viewer select {
+    font-family: "Poppins", sans-serif;
+    font-weight: 300;
+    font-size: 15px;
+    text-align: center;
+    color: #4b4b4b;
+
+    border: solid 1px #c4c4c4;
+    border-radius: 2px;
+    outline: none;
+
+    width: 75%;
+    margin: 8px 0;
+
+    transition: all ease-in-out 100ms;
+}
+
+.table-viewer textarea {
+    width: 90%;
+    field-sizing: content;
+    resize: none;
+}
+
+.table-viewer input:focus,
+.table-viewer textarea:focus,
+.table-viewer select:focus {
+    color: black;
+    border: solid 1px rgb(126, 126, 126);
+}
+
+.table-viewer input[disabled],
+.table-viewer textarea[disabled],
+.table-viewer select[disabled] {
+    border: none;
+    background: none;
+    appearance: none;
+    opacity: 1;
+}
+
+.table-viewer .table-actions button {
+    padding: 8px 10px;
+    margin: 0 4px;
+    font-size: 16px;
+    border: none;
+}
