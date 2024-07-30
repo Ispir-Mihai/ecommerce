@@ -5,9 +5,8 @@
 
 <h3>Instalation</h3>
 <ul>
-    <li>Modify database connections in `db.php`</li>
-    <li>Create tables as shown</li>
-    <li>```codeblock with sql```</li>
+    <li>Modify database connections in <b>db.php</b></li>
+    <li>Execute <b>init.sql</b> file for database</li>
 </ul>
 
 <hr/>
