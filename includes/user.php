@@ -214,13 +214,11 @@ class User
         if (!preg_match($pattern, $password)) {
             return [
                 "success" => false,
-                "message" => "
-                    Password must be 8 characters or longer.<br>
-                    Contain at least one lowercase letter.<br>
-                    Contain at least one uppercase letter.<br>
-                    Contain at least one digit.<br>
-                    Contain at least one special character.
-                "
+                "message" => "Password must be 8 characters or longer.
+                Contain at least one lowercase letter.
+                Contain at least one uppercase letter.
+                Contain at least one digit.
+                Contain at least one special character."
             ];
         }
 
@@ -237,7 +235,7 @@ class User
         );
 
         return [
-            "success" => $user,
+            "success" => true,
             "message" => "Account created successfully."
         ];
     }

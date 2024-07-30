@@ -8,8 +8,8 @@ class Toast
         "
         <script>
             Toastify({
-                text: \"{$message}\",
-                duration: 2000,
+                text: `{$message}`,
+                duration: 3500,
                 newWindow: true,
                 close: true,
                 gravity: \"bottom\",
@@ -28,8 +28,8 @@ class Toast
         "
         <script>
             Toastify({
-                text: \"{$message}\",
-                duration: 2000,
+                text: `{$message}`,
+                duration: 3500,
                 newWindow: true,
                 close: true,
                 gravity: \"bottom\",
@@ -48,8 +48,8 @@ class Toast
         "
         <script>
             Toastify({
-                text: \"{$message}\",
-                duration: 2000,
+                text: `{$message}`,
+                duration: 3500,
                 newWindow: true,
                 close: true,
                 gravity: \"bottom\",

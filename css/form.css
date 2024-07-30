@@ -1,8 +1,10 @@
 form {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
+    flex-wrap: wrap;
     justify-content: center;
     align-items: center;
+    gap: 12px;
 }
 
 input {
@@ -16,7 +18,7 @@ input {
     outline: none;
 
     padding: 6px 6px;
-    margin: 8px 0;
+    margin: 6px 0;
     transition: all ease-in-out 100ms;
 }
 
@@ -54,8 +56,8 @@ button:hover {
 }
 
 .input-group label {
-    font-size: 14px;
-    font-weight: 3 00;
+    font-size: 15px;
+    font-weight: 300;
 }
 
 input.w-50,
