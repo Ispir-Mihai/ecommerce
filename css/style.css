@@ -8,12 +8,17 @@ body {
 /* LAYOUT BEGIN */
 .container {
     width: 100%;
-    margin: 140px 0;
+    margin: 160px 0;
 
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+}
+
+.w-25 {
+    width: 25%;
+    box-sizing: border-box;
 }
 
 .w-50 {
