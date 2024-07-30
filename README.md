@@ -1,7 +1,5 @@
 <h1>PHP eCommerce Platform</h1>
 
-<hr/>
-
 <h3>Instalation</h3>
 <ul>
     <li>Modify database connections in <b>db.php</b></li>
