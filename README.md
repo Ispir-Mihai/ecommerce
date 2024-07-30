@@ -1,5 +1,4 @@
 <h1>PHP eCommerce Platform</h1>
-<p>Full PHP eCommerce platform, created as a template</p>
 
 <hr/>
 
